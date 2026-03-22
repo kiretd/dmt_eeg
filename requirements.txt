@@ -1,0 +1,22 @@
+# DMT EEG Analysis Dependencies
+# Author: Kiret Dhindsa (kiretd@gmail.com)
+
+# Core scientific stack
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# EEG analysis
+mne>=1.6
+mne-connectivity>=0.6
+
+# MATLAB file I/O
+# (scipy.io.loadmat handles .mat files up to v7.2; h5py needed for v7.3+)
+h5py>=3.9
+
+# IRASA spectral analysis
+# Install from source if not on PyPI: https://github.com/Prerau-Lab/IRASA
+# irasa  # uncomment and adjust if available via pip
+
+# Utilities
+pickle5; python_version < "3.8"

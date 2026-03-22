@@ -1,0 +1,37 @@
+# Data files (raw EEG — not for distribution)
+EEG/
+
+# Legacy results directory
+Results_old/
+
+# Documentation scratch folder
+Docs/
+
+# Large pickle outputs (too big for git)
+Results/saved_outputs/*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.spyproject
+
+# OS
+.DS_Store
+Thumbs.db
+nul
